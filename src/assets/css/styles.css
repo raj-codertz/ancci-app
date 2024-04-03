@@ -1,0 +1,94 @@
+.content-header {
+    background: url(../images/content_header.png) no-repeat;
+    float: left;
+    clear: left;
+    width: 1100px;
+    height: 44px;
+    margin: 4px 0 20px 0;
+}
+.content-header h2 {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.banner-right {
+    background: url(../images/banner_right.jpg) no-repeat;
+    background-size: cover;
+    float: right;
+    clear: right;
+    width: 240px;
+    height: 813px;
+    margin: 4px 0 0 4px;
+}
+.leftAlignIMG {
+    display: flex;
+    flex-direction: column-reverse;
+    float: left;
+    margin: 0 10px 10px 40px;
+    border: solid #2f1000 1px;
+}
+
+h1 {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+}
+
+.mainContent {
+    margin: 0 10px 10px 40px;
+    float: left;
+    width: 1050px;
+    overflow: auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+    padding: 0;
+    max-width: 100%;
+
+}
+/*.bodyContent {*/
+/*    width: 935px;*/
+/*}*/
+
+.footer {
+    background: #FFF;
+    color: #777;
+    width: 935px;
+    min-height: 187px;
+    float: left;
+}
+.footerLine{
+    /*background-size: cover;*/
+    /*background: url(../images/footie_line.png) center center;*/
+    /*height: 1px;*/
+    /*margin: 25px auto 10px auto;*/
+    /*padding-left: 70px;*/
+    width: 1500px; /* set the desired length of the line */
+    height: 1px; /* set the height of the line */
+    background-color: black;
+}
+.footerNav{
+    width: 935px;
+    min-height: 70px;
+    text-align: center;
+    font-size: 12px;
+    /*margin: 10px 90px;*/
+    padding: 0 15px;
+    margin-left: 130px;
+    margin-top: 4px;
+}
+
+
+.bgIMG {
+    background: #FFFFFF url(../images/building.jpg) no-repeat 0 55px ;
+    float:left;
+    /*width:935px;*/
+    min-height:600px;
+    width: auto;
+}
